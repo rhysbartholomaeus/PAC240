@@ -69,8 +69,6 @@ def selectVoice(voice):
     return voice
 
 def generateWavFile(text, voice, rate):
-    #engine = pyttsx3.init()
-    print("Voice before:" + str(voice))
     voice = selectVoice(voice)
     engine.setProperty('voice', voices[voice].id)
     engine.setProperty('rate', rate)
