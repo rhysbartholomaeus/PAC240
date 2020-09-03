@@ -20,7 +20,7 @@ In the folder with `app.py`, start the server using:
 
 To test, use CURL and a GET request similar to the following:
 ```
-curl -G "http://localhost:5122/process?" --data-urlencode "INPUT_TEXT=Its #$% ABC" --data-urlencode "VOICE=1" --data-urlencode "RATE=175" -o test2.wav
+curl -G "http://localhost:5122/process?" --data-urlencode "INPUT_TEXT=Welcome to the world of speech synthesis." --data-urlencode "VOICE=1" --data-urlencode "RATE=175" -o test2.wav
 ```
 The _VOICE_ and _RATE_ parameters are optional. 
 
