@@ -8,7 +8,7 @@ import os
 import json
 
 # This FLASK server is intended to emulate the MARY-TTS API.
-app = Flask("flite")
+app = Flask("pyttsx3")
 CORS(app)
 
 # Initialise the engine - On Windows it'll hook into the Microsoft Speech API.
