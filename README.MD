@@ -57,7 +57,7 @@ To make these additional voices visible to PyTTSx3, you'll need to modify the re
 2. In `regedit`, browse to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\Voices\Token`. This lists all of the available MS SAPI voices installed on the machine.
 3. Right click on a folder for one of the voices, IE: `MSTTS_V110_enAU_CatherineM`, and select Export. Choose a location on the Desktop or in your Documents.
 4. Enter a name for the new registry file, IE: 'catherinem'
-5. Open the newly export registry file using your favourite text editor.
+5. Open the newly exported registry file using your favourite text editor.
 6. Copy all of the information in the file **except** for the `Windows Registry Editor Version 5.00` line and paste the contents **below** the existing text. (We need the registry file to point to two different locations)
 7. Replace the **location** in the first data set with:
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens`. Retain the voice name!
