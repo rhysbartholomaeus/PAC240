@@ -43,7 +43,7 @@ This will return a JSON string consisting of:
 ```
 
 ### Unlocking additional SAPI voices
-By default, the standard Windows TTS COM object does not expose all of the available voices from SAPI5 due to a Microsoft introduced with their TTS engine.
+By default, the standard Windows TTS COM object does not expose all of the available voices from SAPI5 due to a registry change Microsoft introduced.
 
 To make these additional voices visible to PyTTSx3, you'll need to modify the registry.
 
