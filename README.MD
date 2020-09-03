@@ -1,6 +1,6 @@
 # PYTTSx3 Server
 
-This simple Flask server interacts with the core Windows SAPI to provde Text-To-Speech synthesis over a network.
+This simple Flask server interacts with the Windows SAPI to provide Text-To-Speech synthesis over a network using HTTP GET requests.
 
 ## Requirements
 Requires:
